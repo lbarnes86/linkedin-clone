@@ -81,6 +81,7 @@ const CardBackground = styled.div`
   background-size: 462px;
   height: 54px;
   margin: -12px -12px 0;
+  
 `;
 
 const Photo = styled.div`
@@ -115,6 +116,7 @@ const AddPhotoText = styled.div`
 `;
 
 const Widget = styled.div`
+  
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding-top: 12px;
   padding-bottom: 12px;
@@ -145,6 +147,7 @@ const Widget = styled.div`
   }
   svg {
     color: rgba(0, 0, 0, 1);
+    
   }
 `;
 
