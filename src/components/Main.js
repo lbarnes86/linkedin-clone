@@ -44,6 +44,17 @@ const Main = (props) => {
                             <img src="/images/ellipsis.svg" alt="" />
                         </button>
                     </SharedActor>
+                    <Description>
+                        Description 
+                    </Description>
+                    <SharedImg>
+                        <a>
+                            <img src="/images/shared.png" alt="" />
+                        </a>
+                    </SharedImg>
+                    <SocialCounts>
+
+                    </SocialCounts>
                 </Article>
             </div>
         </Container>
@@ -189,5 +200,33 @@ button {
 }
 
 `
+
+const Description = styled.div`
+    padding: 0 16px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+    text-align: left;
+
+
+`
+
+const SharedImg = styled.div`
+    margin-top: 8px;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: #f9fafb;
+
+    img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+
+`
+
+const SocialCounts = styled.
 
 export default Main;
