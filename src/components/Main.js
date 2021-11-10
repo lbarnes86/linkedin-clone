@@ -32,7 +32,9 @@ const Main = (props) => {
     };
 
     return (
+        
         <>
+          
         { 
             props.articles.length === 0 ? (
             <p>There are no articles</p>
@@ -118,7 +120,7 @@ const Main = (props) => {
                             </button>
                         </li>
                         <li>
-                            <a>2 comments</a>
+                            <a>{article.comments}</a>
                         </li>
                     </SocialCounts>
                     <SocialActions>
@@ -148,6 +150,7 @@ const Main = (props) => {
         </>
 
     );
+
 };
 
 const Container = styled.div`
@@ -332,6 +335,8 @@ const SocialCounts = styled.ul`
         font-size: 12px;
         button {
             display: flex;
+            border: none;
+            background-color: white;
         }
     }
 
@@ -348,6 +353,8 @@ const SocialActions = styled.div`
         align-items: center;
         padding: 8px;
         color: #0a66c2;
+        border: none;
+        background-color: white;
 
         @media (min-width: 768px) {
             span {
