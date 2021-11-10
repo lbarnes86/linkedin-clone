@@ -137,7 +137,8 @@ const PostModal = (props) => {
                     Anyone
                 </AssetButton>
                 </ShareComment>
-                <PostButton disabled={!editorText ? true : false }>
+                <PostButton disabled={!editorText ? true : false } 
+                onClick={(event) => postArticle(event)}>
                     Post
                 </PostButton>
 
@@ -319,7 +320,9 @@ const mapStateToProps = (state) => {
 
 }
 
-const mapDispatchToProps = (dispatch) => ({});
+const mapDispatchToProps = (dispatch) => ({
+    postArticle: (payload) => dispatch(postArticleAPI(payload))
+});
 
 
 export default connect(mapStateToProps, mapDispatchToProps)(PostModal);
