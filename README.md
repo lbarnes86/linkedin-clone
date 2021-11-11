@@ -25,7 +25,7 @@
 ## Instructions
 
 ```
-Click the Google button to sign in to app. Click in the 'Share Post' are and enter a text to post. You can also click the image or video button to upload media as well. 
+Click to sign in with Google. Click in the 'Share Post' are and enter a text to post. You can also click the image or video button to upload media as well. 
 
 ```
 
