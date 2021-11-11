@@ -4,14 +4,14 @@
 
 </div>
 
-- Live Demo: [Live Demo]()
+- Live Demo: [Live Demo](https://linked-clone-4a813.web.app)
 
 - Repository: [Repository](https://github.com/lbarnes86/linkedin-clone)
 
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
+- [Instructions](#instructions)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Screenshots](#screenshots)
@@ -22,16 +22,16 @@
 
 >This project was created using ReactJS, Firebase, Styled Components and Redux..
 
-## Installation
+## Instructions
 
 ```
-You can run "npm i" to install package dependencies.
+Click the Google button to sign in to app. Click in the 'Share Post' are and enter a text to post. You can also click the image or video button to upload media as well. 
 
 ```
 
 ## Usage
 
->This project is a clone of the LinkedIn website.
+>This project is a clone of the LinkedIn website using Firebase.
 
 ## Dependencies
 
@@ -43,13 +43,11 @@ You can run "npm i" to install package dependencies.
 
 ## Screenshots
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/70309736/141214231-7c8dd24b-34ea-4202-b824-b58793cc91bb.png">
 
-<img src="">
+<img src="https://user-images.githubusercontent.com/70309736/141214242-34968f85-03bf-40e5-806b-e81dc82367c5.png">
 
-<img src="">
-
-<img src="">
+<img src="https://user-images.githubusercontent.com/70309736/141214249-0fcddf50-30d1-4696-91fa-f7dfcdbb22e6.png">
 
 
 ## Contributors
